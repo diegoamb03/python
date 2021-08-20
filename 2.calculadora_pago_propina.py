@@ -15,3 +15,11 @@ total_por_persona = cuenta_subtotal / personas
 total_por_persona_red = round(total_por_persona, 2)
 
 print(f"Cada persona pagara un total de: {total_por_persona_red}")
+
+
+
+#link to URL
+#https://replit.com/@Diegoamb06/tip-calculator-start-1#main.py
+
+
+
