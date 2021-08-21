@@ -1,0 +1,29 @@
+# 🚨 Don't change the code below 👇
+print("Bienvenidos al programa de entrega de Pizzas")
+size = input("Que tamaño de Pizza le gustaria para el dia de Hoy? S, M, o L ")
+adicion_p = input("Te gustaria Peperoni? si o no? ")
+adicion_q = input("Te gustaria Queso extra? si o no? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+
+#condicionales
+if size == "S":
+        valor_cuenta = 15
+        if adicion_p == "si":
+                valor_cuenta += 2                             
+elif size == "M":
+        valor_cuenta = 20
+        if adicion_p == "si":
+                valor_cuenta += 3                     
+else:
+        valor_cuenta = 25
+        if adicion_p == "si":
+                valor_cuenta += 3                
+if adicion_q == "si":
+        valor_cuenta += 1
+        print(f"El valor de la cuenta es {valor_cuenta}")
+else:
+        print(f"El valor de la cuenta es {valor_cuenta}")
+
