@@ -33,6 +33,8 @@ for caracter in range(1, num_numeros + 1):
 #alteramos la lista para que quede aleatoria
 random.shuffle(password_lista)
 
+
+#convierte de la lista al string para que se imprima en pantalla
 password = ""
 for caracter in password_lista:
   password += caracter
