@@ -7,17 +7,21 @@ diccionario_ejemplo = {
   "key3" : "valor3"
 }
 print(diccionario_ejemplo)
+print("--------------------")
 
 #imprimir una clave del diccionario
 print(diccionario_ejemplo["key2"])
+print("--------------------")
 
 diccionario_ejemplo2 = {
   "clave1":"valor1",
   "clave2":"valor2",
   "clave3":"valor3"
 }
+
 #imprimir una clave del diccionario
 print(diccionario_ejemplo2["clave3"])
+print("--------------------")
 
 diccionario_ejemplo3 = {
   "paises a visitar" : "Australia, nueva zelanda, Mexico, Panama",
@@ -41,6 +45,7 @@ diccionario_vacio["clave_agregada3"] = "valor3"
 diccionario_vacio["clave_agregada3"] = "valor modificado"
 
 print(diccionario_vacio)
+print("--------------------")
 
 #ciclos trabajados con diccionarios
 
@@ -49,6 +54,11 @@ print(diccionario_vacio)
 for thing in diccionario_ejemplo3:
   print(thing)
 
+print("--------------------")
+
+
 """imprimira los valores de las claves"""
 for key in diccionario_ejemplo3:
-  print(diccionario_ejemplo3[key])
+  print(key) #imprime la clave
+  print(diccionario_ejemplo3[key]) 
+  #luego imprime el valor
